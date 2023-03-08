@@ -1,9 +1,10 @@
-import { Button } from "ui";
+import { Button } from "@tacos-ui/button";
+import { Hello } from "@tacos-ui/hello";
 
 export default function Web() {
   return (
     <div>
-      <h1>Web</h1>
+      <Hello name="world" />
       <Button />
     </div>
   );

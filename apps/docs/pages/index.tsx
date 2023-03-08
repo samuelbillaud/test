@@ -1,9 +1,9 @@
-import { Button } from "ui";
+import { Button, Hello } from "@tacos-ui/react";
 
 export default function Docs() {
   return (
     <div>
-      <h1>Docs</h1>
+      <Hello name="Docsssssss" />
       <Button />
     </div>
   );
